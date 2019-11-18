@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+}
+.menu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 7em;
+}
+.contact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: .4em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.home{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 68em;
+    font-size: 1.3em;
+}
+.projects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 79em;
+    font-size: 1.3em;
+}
+.first{
+    font-family: 'Baskerville', serif;
+    font-weight: 550;
+    font-size: 6.4em;
+    position: absolute;
+    left: 13em;
+    top: 3.5em;
+}
+.middle{
+    font-family: 'Baskerville', serif;
+    font-weight: 550;
+    font-size: 6.4em;
+    position: absolute;
+    left: 11.5em;
+    top: 5em;
+
+
+}
+.last{
+    font-family: 'Baskerville', serif;
+    font-weight: 550;
+    font-size: 6.4em;
+    position: absolute;
+    left: 6.5em;
+    top: 6.5em;
+
+}
+.personal{
+    font-size: 1.7em;
+    max-width: 20em;
+    text-align: right;
+    position: absolute;
+    left: 12em;
+    top: 13em;
+}
+
+.bar_one{
+    background-color: rgb(57, 235, 222);
+    width: 60em;
+    height: 2em;
+    position: absolute;
+    top: 7em;
+
+}
+.bar_two{
+    background-color: rgb(109, 224, 153);
+    width: 75em;
+    height: 3em;
+    position: absolute;
+    top: 9em;
+}
+.bar_three{
+    background-color: rgb(241, 253, 94);
+    width: 70em;
+    height: 2.5em;
+    position: absolute;
+    top: 12em;
+}
+.bar_four{
+    background-color: rgb(57, 235, 222);
+    width: 80em;
+    height: 4em;
+    position: absolute;
+    left: 40em;
+    top: 52em;
+
+}
+.bar_five{
+    background-color: rgb(241, 253, 94);
+    width: 70em;
+    height: 5em;
+    position: absolute;
+    top: 57.5em;
+    left: 50em;
+}
+.bar_six{
+    background-color: rgb(109, 224, 153);
+    width: 65em;
+    height: 4em;
+    position: absolute;
+    top: 54.4em;
+    left: 55em;
+}
+
+
+
+/* ----------- SMART PHONES ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+    .menu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 60em;
+        width: 4em;
+        
+    }
+    .contact{
+       font-weight: 300;
+       line-height: .5em;
+       position: absolute;
+       top: 70em;
+       left: 3em;
+       text-align: left;
+       color: rgb(11, 54, 64);
+       font-size: .7em;
+    }
+    .home{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .4em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+    }
+    .projects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: -.1em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+    }
+    .first{
+        font-family: 'Baskerville', serif;
+        font-weight: 550;
+        font-size: 2em;
+        position: absolute;
+        left: 1em;
+        top: 3.5em;
+    }
+    .middle{
+        font-family: 'Baskerville', serif;
+        font-weight: 550;
+        font-size: 2em;
+        position: absolute;
+        left: 1em;
+        top: 5em;
+    
+    
+    }
+    .last{
+        font-family: 'Baskerville', serif;
+        font-weight: 550;
+        font-size: 2em;
+        position: absolute;
+        left: 1em;
+        top: 6.5em;
+    
+    }
+    .personal{
+        font-size: 1em;
+        max-width: 11.5em;
+        text-align: left;
+        position: absolute;
+        left: 10em;
+        top: 23em;
+        font-weight: lighter;
+        line-height: 1.2em;
+    }
+    
+    .bar_one{
+        background-color: rgb(57, 235, 222);
+        width: 90%;
+        height: 2.5em;
+        position: absolute;
+        top: 2em;
+        right: 0em;
+    
+    }
+    .bar_two{
+        background-color: rgb(241, 253, 94);
+        width: 50%;
+        height: 2.5em;
+        position: absolute;
+        top: 6.5em;
+        right: 0em;
+    }
+    .bar_three{
+        background-color: rgb(109, 224, 153);
+        width: 10em;
+        height: 3em;
+        position: absolute;
+        top: 4em;
+        left: 12.5em;
+    }
+    .bar_four{
+        background-color: rgb(57, 235, 222);
+        width: 100%;
+        height: 3em;
+        position: absolute;
+        left: 0em;
+        top: 29em;
+    }
+    .bar_five{
+        background-color: rgb(241, 253, 94);
+        width: 10em;
+        height: 5em;
+        position: absolute;
+        top: 57.5em;
+        left: 0em;
+    }
+    .bar_six{
+        background-color: rgb(109, 224, 153);
+        width: 10em;
+        height: 2em;
+        position: absolute;
+        top: 32em;
+        left: 12.5em;
+    }
+   
+
+}
+ 
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        
+    }
+
+}
