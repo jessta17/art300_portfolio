@@ -1,3 +1,6 @@
+/* ----------- COMPUTER HOME ----------- */
+
+
 body{
     background-color: rgb(255, 247, 234);
     padding: 0;
@@ -116,10 +119,31 @@ body{
     top: 54.4em;
     left: 55em;
 }
+/* unvisited link */
+a:link {
+    color: rgb(11, 54, 64);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(11, 54, 64);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(11, 54, 64);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(11, 54, 64);
+    text-decoration: none;
+  }
 
-
-
-/* ----------- SMART PHONES ----------- */
+/* ----------- SMART PHONES HOME ----------- */
  
  
 @media only screen and (max-width: 800px) {
@@ -130,19 +154,20 @@ body{
     .menu{
         background-color:rgb(212, 255, 69);
         margin-top: -1em;
-        height: 60em;
+        height: 49.8em;
         width: 4em;
         
     }
     .contact{
-       font-weight: 300;
+       font-weight: 350;
        line-height: .5em;
        position: absolute;
-       top: 70em;
+       top: 46.2em;
        left: 3em;
        text-align: left;
        color: rgb(11, 54, 64);
-       font-size: .7em;
+       font-size: .8em;
+       z-index: 100;
     }
     .home{
         font-weight: bold;
@@ -162,37 +187,39 @@ body{
     }
     .first{
         font-family: 'Baskerville', serif;
-        font-weight: 550;
-        font-size: 2em;
+        font-weight: 470;
+        font-size: 3em;
         position: absolute;
-        left: 1em;
-        top: 3.5em;
+        left: 1.7em;
+        top: 4.5em;
     }
     .middle{
         font-family: 'Baskerville', serif;
-        font-weight: 550;
-        font-size: 2em;
+        font-weight: 470;
+        font-size: 3em;
         position: absolute;
-        left: 1em;
-        top: 5em;
+        left: 1.5em;
+        top: 6em;
+        transform: rotate(90deg);
+
     
     
     }
     .last{
         font-family: 'Baskerville', serif;
-        font-weight: 550;
-        font-size: 2em;
+        font-weight: 470;
+        font-size: 3em;
         position: absolute;
-        left: 1em;
+        left: 2.7em;
         top: 6.5em;
     
     }
     .personal{
-        font-size: 1em;
-        max-width: 11.5em;
+        font-size: 1.2em;
+        max-width: 11.4em;
         text-align: left;
         position: absolute;
-        left: 10em;
+        left: 12.7em;
         top: 23em;
         font-weight: lighter;
         line-height: 1.2em;
@@ -200,62 +227,3118 @@ body{
     
     .bar_one{
         background-color: rgb(57, 235, 222);
-        width: 90%;
-        height: 2.5em;
+        width: 95%;
+        height: 3em;
         position: absolute;
-        top: 2em;
+        top: 4em;
         right: 0em;
     
     }
     .bar_two{
         background-color: rgb(241, 253, 94);
-        width: 50%;
-        height: 2.5em;
+        width: 80%;
+        height: 3em;
         position: absolute;
-        top: 6.5em;
+        top: 9em;
         right: 0em;
     }
     .bar_three{
         background-color: rgb(109, 224, 153);
-        width: 10em;
+        width: 35%;
         height: 3em;
         position: absolute;
-        top: 4em;
-        left: 12.5em;
+        top: 7em;
+        right: 0%;
+    
     }
     .bar_four{
         background-color: rgb(57, 235, 222);
         width: 100%;
-        height: 3em;
+        height: 4em;
         position: absolute;
         left: 0em;
-        top: 29em;
+        top: 37em;
     }
     .bar_five{
         background-color: rgb(241, 253, 94);
-        width: 10em;
-        height: 5em;
+        width: 90%;
+        height: 3.5em;
         position: absolute;
-        top: 57.5em;
-        left: 0em;
+        top: 43em;
+        left: 3.1em;
     }
     .bar_six{
         background-color: rgb(109, 224, 153);
-        width: 10em;
-        height: 2em;
+        width: 70%;
+        height: em;
         position: absolute;
-        top: 32em;
-        left: 12.5em;
-    }
+        top: 41em;
+        left: 9.4em;    
+}
    
 
 }
  
-/* ----------- TABLETS ----------- */
+/* ----------- TABLETS  HOME ----------- */
  
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
     body{
+        padding: 0em;
+      }
+      .menu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 12em;
+          width: 100%;
+          
+      }
+      .contact{
+         font-weight: 350;
+         line-height: .5em;
+         position: absolute;
+         top: 1.2em;
+         left: 2em;
+         text-align: left;
+         color: rgb(11, 54, 64);
+         font-size: .8em;
+         z-index: 100;
+      }
+      .home{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 60%;
+          font-size: 1.2em;
+          
+      }
+      .projects{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 80%;
+          font-size: 1.2em;
+         
+      }
+      .first{
+          font-family: 'Baskerville', serif;
+          font-weight: 540;
+          font-size: 3.5em;
+          position: absolute;
+          left: 1.2em;
+          top: 4.5em;
+      }
+      .middle{
+          font-family: 'Baskerville', serif;
+          font-weight: 540;
+          font-size: 3.5em;
+          position: absolute;
+          left: 4.7em;
+          top: 6em;
+          transform: rotate(90deg);
+  
+      
+      
+      }
+      .last{
+          font-family: 'Baskerville', serif;
+          font-weight: 540;
+          font-size: 3.5em;
+          position: absolute;
+          left: 7em;
+          top: 7.5em;
+      
+      }
+      .personal{
+          font-size: 1.2em;
+          max-width: 28em;
+          text-align: left;
+          position: absolute;
+          left: 12.7em;
+          top: 26em;
+          font-weight: lighter;
+          line-height: 1.4em;
+      }
+      
+      .bar_one{
+          background-color: rgb(57, 235, 222);
+          width: 80%;
+          height: 3em;
+          position: absolute;
+          top: 6em;
+          left: 0em;
+      
+      }
+      .bar_two{
+          background-color: rgb(241, 253, 94);
+          width: 87%;
+          height: 2em;
+          position: absolute;
+          top: 12em;
+          left: 0em;
+      }
+      .bar_three{
+          background-color: rgb(109, 224, 153);
+          width: 100%;
+          height: 3em;
+          position: absolute;
+          top: 9em;
+          right: 0%;
+      
+      }
+      .bar_four{
+          background-color: rgb(57, 235, 222);
+          width: 100%;
+          height: 4em;
+          position: absolute;
+          left: 0em;
+          top: 40em;
+      }
+      .bar_five{
+          background-color: rgb(241, 253, 94);
+          width: 99.5%;
+          height: 3.5em;
+          position: absolute;
+          top: 47em;
+          left: .25em;
+      }
+      .bar_six{
+          background-color: rgb(109, 224, 153);
+          width: 80%;
+          height: 4em;
+          position: absolute;
+          top: 44em;
+          left: 10.05em;    
+  }
+
+}
+
+
+
+
+
+  /* ----------- COMPUTER GROUP ----------- */
+
+
+body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.gmenu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 25em;
+    width: 100%;
+}
+.gcontact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: 1em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.ghome{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 70em;
+    font-size: 1.3em;
+    
+}
+.gprojects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 80em;
+    font-size: 1.3em;
+}
+.ggroup{
+    font-family: 'Baskerville', serif;
+    color: rgb(11, 54, 64);
+    font-size: 4em;
+    position: absolute;
+    top: 2.5em;
+    z-index: 100;
+    left: 2em;
+}
+.gbar_one{
+    background-color: rgb(57, 235, 222);
+    width: 88%;
+    height: 3em;
+    position: absolute;
+    top: 10em;
+    z-index: 100;
+
+}
+.gbar_two{
+    background-color: rgb(109, 224, 153);
+    width: 80%;
+    height: 3em;
+    position: absolute;
+    top: 12em;
+    left: 23.8em;
+    
+}
+.gbar_three{
+    background-color: rgb(241, 253, 94);
+    width: 92%;
+    height: 3.5em;
+    position: absolute;
+    top: 14.3em;
+    left: 6em;
+}
+.gbar_four{
+    background-color: rgb(57, 235, 222);
+    width: 60%;
+    height: 4em;
+    position: absolute;
+    left: 0em;
+    top: 98.5em;
+
+}
+.gbar_five{
+    background-color: rgb(241, 253, 94);
+    width: 90%;
+    height: 5em;
+    position: absolute;
+    top: 105em;
+    left: 0;
+    z-index: 100;
+}
+.gbar_six{
+    background-color: rgb(109, 224, 153);
+    width: 90%;
+    height: 4em;
+    position: absolute;
+    top: 102em;
+    left: 11.9em;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 5em;
+    margin: 5%;
+}
+.title{
+    font-family: 'Baskerville', serif;
+    font-weight: 540;
+    font-size: 3.5em;
+    position: absolute;
+    left: 1.2em;
+    top: 4.5em;
+    z-index: 99;
+}
+.p_name{
+    font-family: 'Baskerville', serif;
+    z-index: 100;
+    position: relative;
+    font-size: 2em;
+    font-weight: 100;
+}
+.green{
+    background-color: rgb(109, 224, 153);
+    width: 11.5em;
+    height: 3em;
+    margin-left: 1em;
+    margin-top: -2em;
+    margin-bottom: -.7em;
+    
+    top: 7em;
+}
+.photo{
+    max-width: 500px;
+    margin-left: 1.2em;   
+}
+.gdescribe{
+    font-family: 'Helvetica Neue', sans-serif;
+    color: rgb(255, 247, 234);
+    font-weight: 300;
+    line-height: .5em;
+    font-size: .6em;
+    margin-left: 10em;
+    position: relative;
+    max-width: 17em;
+    line-height: 1.2em;
+}
+.blue{
+    background-color: rgb(11, 54, 64);
+    width: 12em;
+    height: 2.5em;
+    margin-left: 5.5em;
+    margin-top: -1.9em;
+    margin-bottom: -.7em;
+
+}
+/* ----------- SMART PHONES GROUP ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+    .gmenu{
+        background-color:rgb(212, 255, 69);
+        top: 0;
+        height: 110em;
+        width: 4.4em;
+        position: absolute;
         
     }
+    .gcontact{
+       font-weight: 350;
+       line-height: .5em;
+       position: absolute;
+       top: 27.2em;
+       margin-left: -5em;
+       text-align: right;
+       color: rgb(11, 54, 64);
+       font-size: .8em;
+       transform: rotate(-90deg);
+    }
+    .ghome{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .9em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+    }
+    .gprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: .7em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 100;
+    }
+    .ggroup{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 3em;
+        position: absolute;
+        top: -.1em;
+        z-index: 100;
+        left: 3em;
+        font-weight: 100;
+        z-index: 100;
+    }
+    .gbar_one{
+        background-color: rgb(57, 235, 222);
+        width: 100%;
+        height: 4em;
+        position: absolute;
+        top: 1em;
+        right: 0em;
+        z-index: 1;
+    
+    }
+    .gbar_two{
+        background-color: rgb(241, 253, 94);
+        width: 100%;
+        height: 4em;
+        position: absolute;
+        top: 8em;
+        left: 0em;
+        z-index: 0s;
+    }
+    .gbar_three{
+        background-color: rgb(109, 224, 153);
+        width: 85.5%;
+        height: 3em;
+        position: absolute;
+        top: 5em;
+        left: 4.4em;
+    
+    }
+    .gbar_four{
+        background-color: rgb(57, 235, 222);
+        width: 60%;
+        height: 4em;
+        position: absolute;
+        left: 0em;
+        top: 102em;
+    }
+    .gbar_five{
+        background-color: rgb(241, 253, 94);
+        width: 80%;
+        height: 2.4em;
+        position: absolute;
+        top: 108em;
+        left: 0em;
+    }
+    .gbar_six{
+        background-color: rgb(109, 224, 153);
+        width: 100%;
+        height: 4em;
+        position: absolute;
+        top: 105em;
+        left: 0em;    
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+   
+   
+    .project{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 70px;
+        grid-row-gap: 5em;
+        margin: 20%;
+        margin-top: 18em;
+        z-index: 100;
+    }
+    .title{
+        font-family: 'Baskerville', serif;
+        font-weight: 540;
+        font-size: 3.5em;
+        position: absolute;
+        left: 1.2em;
+        top: 4.5em;
+        z-index: 99;
+    }
+    .p_name{
+        font-family: 'Baskerville', serif;
+        z-index: 100;
+        position: relative;
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+    .green{
+        background-color: rgb(109, 224, 153);
+        width: 11.5em;
+        height: 2em;
+        margin-left: .4em;
+        margin-top: -1.3em;
+        margin-bottom: -.7em;
+        
+        top: 7em;
+    }
+    .photo{
+        max-width: 300px;
+        margin-left: .8em;   
+    }
+    .gdescribe{
+        font-family: 'Helvetica Neue', sans-serif;
+        color: rgb(255, 247, 234);
+        font-weight: lighter;
+        line-height: .5em;
+        font-size: .55em;
+        margin-left: 9em;
+        position: relative;
+        max-width: 17em;
+        line-height: 1.2em;
+    }
+    .blue{
+        background-color: rgb(11, 54, 64);
+        width: 10em;
+        height: 2.5em;
+        margin-left: 4.5em;
+        margin-top: -1.9em;
+        margin-bottom: -.7em;
 
+    }
+
+}
+ 
+
+
+/* ----------- TABLETS  GROUP ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        padding: 0em;
+      }
+      .gmenu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 14em;
+          width: 100%;
+          
+      }
+      .gcontact{
+        font-weight: 350;
+        line-height: .5em;
+        position: absolute;
+        top: 1.2em;
+        left: 2em;
+        text-align: left;
+        color: rgb(11, 54, 64);
+        font-size: .8em;
+        z-index: 100;
+     }
+     .ghome{
+         font-weight: bold;
+         position: absolute;
+         top: 1.2em;
+         left: 28em;
+         font-size: 1.2em;
+        }
+    .gprojects{
+         font-weight: bold;
+         position: absolute;
+         top: 1.2em;
+         left: 36em;
+         font-size: 1.2em;
+        
+     }
+    .gbar_one{
+          background-color: rgb(57, 235, 222);
+          width: 90%;
+          height: 3em;
+          position: absolute;
+          top: 15em;
+          left: 4.9em;
+      
+      }
+    .gbar_two{
+          background-color: rgb(241, 253, 94);
+          width: 75%;
+          height: 3em;
+          position: absolute;
+          top: 20em;
+          left: 12.3em;
+      }
+    .gbar_three{
+          background-color: rgb(109, 224, 153);
+          width: 25%;
+          height: 2em;
+          position: absolute;
+          top: 18em;
+          left: 36.9em;
+      
+      }
+    .gbar_four{
+          background-color: rgb(57, 235, 222);
+          width: 35%;
+          height: 3em;
+          position: absolute;
+          left: 0em;
+          top: 70em;
+      }
+    .gbar_five{
+          background-color: rgb(241, 253, 94);
+          width: 55%;
+          height: 3em;
+          position: absolute;
+          top: 75em;
+          left: 0em;
+          margin-bottom: 1.5em;
+          z-index: 10;
+      }
+    .gbar_six{
+          background-color: rgb(109, 224, 153);
+          width: 98%;
+          height: 3em;
+          position: absolute;
+          top: 73em;
+          left: 0em;
+      }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .gmenu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 26em;
+        width: 100%;
+    }
+    .gcontact{
+    font-weight: 300;
+    line-height: .5em;
+    position: absolute;
+    top: 1em;
+    left: 3em;
+    text-align: right;
+    color: rgb(11, 54, 64);
+    }
+    .ghome{
+        font-weight: bold;
+        position: absolute;
+        top: 1.8em;
+        left: 65%;
+        font-size: 1.3em;
+    }
+    .gprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 1.8em;
+        left: 80%;
+        font-size: 1.3em;
+    }
+    .ggroup{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 5em;
+        position: absolute;
+        top: .8em;
+        z-index: 100;
+        left: 0.4em;
+        font-weight: 100;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 70px;
+        grid-row-gap: 5em;
+        margin: 1%;
+        margin-top: 12em;
+    }
+    .title{
+        font-family: 'Baskerville', serif;
+        font-weight: 540;
+        font-size: 3.5em;
+        position: absolute;
+        left: 1.2em;
+        top: 4.5em;
+        z-index: 99;
+    }
+    .p_name{
+        font-family: 'Baskerville', serif;
+        z-index: 100;
+        position: relative;
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+    .green{
+        background-color: rgb(109, 224, 153);
+        width: 11.5em;
+        height: 2em;
+        margin-left: .4em;
+        margin-top: -1.3em;
+        margin-bottom: -.7em;
+        
+        top: 7em;
+    }
+    .photo{
+        max-width: 300px;
+        margin-left: .8em;   
+    }
+    .gdescribe{
+        font-family: 'Helvetica Neue', sans-serif;
+        color: rgb(255, 247, 234);
+        font-weight: 200;
+        letter-spacing: .02em;
+        line-height: .5em;
+        font-size: .55em;
+        margin-left: 9em;
+        position: relative;
+        max-width: 17em;
+        line-height: 1.2em;
+    }
+    .blue{
+        background-color: rgb(11, 54, 64);
+        width: 10em;
+        height: 2.5em;
+        margin-left: 4.5em;
+        margin-top: -1.9em;
+        margin-bottom: -.7em;
+
+    }
+}
+
+
+
+  /* ----------- COMPUTER thames and hudson ----------- */
+
+
+body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+}
+.imenu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 14em;
+}
+.icontact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: .4em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.ihome{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 80%;
+    font-size: 1.3em;
+}
+.iprojects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 90%;
+    font-size: 1.3em;
+}
+.ibar_one{
+    background-color: rgb(57, 235, 222);
+    width: 70%;
+    height: 3em;
+    position: absolute;
+    top: 10.5em;
+
+}
+.ibar_two{
+    background-color: rgb(109, 224, 153);
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    top: 13em;
+    z-index: 1;
+}
+.ibar_three{
+    background-color: rgb(241, 253, 94);
+    width: 80%;
+    height: 3em;
+    position: absolute;
+    top: 15em;
+    z-index: 50;
+}
+.thbar_four{
+    background-color: rgb(57, 235, 222);
+    width: 80%;
+    height: 4em;
+    position: absolute;
+    left: 24em;
+    top: 58em;
+
+}
+.thbar_five{
+    background-color: rgb(241, 253, 94);
+    width: 70%;
+    height: 2em;
+    position: absolute;
+    left: 36em;
+    bottom: 0em;
+}
+.thbar_six{
+    background-color: rgb(109, 224, 153);
+    width: 65em;
+    height: 2.6em;
+    position: absolute;
+    top: 62em;
+    left: 55em;
+}
+.pro_name{
+    font-family: 'Baskerville', serif;
+    color: rgb(11, 54, 64);
+    font-size: 3em;
+    position: absolute;
+    top: 2em;
+    z-index: 100;
+    left: 2em;
+    font-weight: lighter;
+    max-width: 15em;
+
+
+}
+.pro_info{
+    color: rgb(11, 54, 64);
+    position: absolute;
+    line-height: 1.5em;
+    z-index: 100;
+    max-width: 53em;
+    left: 43em;
+    font-weight: 200;
+    font-size: 1.2em;
+    top: 15em;
+
+}
+.white{
+    background-color: snow;
+    position: absolute;
+    width: 55%;
+    height: 10em;
+    left: 50em;
+}
+
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .base_grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .thmain_image {
+    padding: 20px;
+    position: absolute;
+    height: 50%;
+    left: 1em;
+    top: 16em;
+    z-index: 100;
+  }
+  .thumbnails_grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px; */
+  }
+  
+  .thumbnails_grid img {
+    cursor: pointer;
+  }
+  #metal{
+      height: 20%;
+      position: absolute;
+      left: 50em;
+      top: 30em;
+
+  }
+    #phot{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 64em;
+      top: 40em;
+      z-index: 100;
+
+}
+    #book{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 81em;
+      top: 32em;
+      z-index: 50;
+
+    }
+    #stone{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 98em;
+      top: 45.2em;
+      z-index: 20;
+}
+
+  
+
+
+/* ----------- SMART PHONES thames and hudson ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+
+    .imenu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 75em;
+        width: 3em;
+        margin-bottom: ;
+        
+    }
+    .icontact{
+       font-weight: 350;
+       line-height: .5em;
+       position: absolute;
+       top: 68em;
+       left: 26em;
+       text-align: right;
+       color: rgb(11, 54, 64);
+       font-size: .8em;
+       z-index: 100;
+    }
+    .ihome{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .4em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    .iprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: -.1em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    
+    .ibar_one{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 40em;
+        position: absolute;
+        top: 34em;
+        left: .7em;
+        margin-bottom: 0em;
+    
+    }
+    .ibar_two{
+        background-color: rgb(241, 253, 94);
+        width: 2em;
+        height: 55em;
+        position: absolute;
+        top: 19em;
+        left: 4em;
+        z-index: 2;
+        margin-bottom: 0em;
+    }
+    .ibar_three{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 50em;
+        position: absolute;
+        top: 24em;
+          left: 2.5em;
+          z-index: 1;
+          margin-bottom: 0em;
+    }
+    .thbar_four{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 47em;
+        position: absolute;
+        left: 79%; 
+        top: 0em;
+    }
+    .thbar_five{
+      background-color: rgb(241, 253, 94);
+      width: 2em;
+      height: 35em;
+      position: absolute;
+      left: 91%;
+      z-index: 50;
+      top: 0em;
+    }
+    .thbar_six{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 20em;
+        position: absolute;
+        top: 0em;
+        left: 85%;    
+  }
+  .pro_name{
+      font-family: 'Baskerville', serif;
+      color: rgb(11, 54, 64);
+      font-size: 2.5em;
+      position: absolute;
+      top: .3em;
+      z-index: 100;
+      left: 2em;
+      font-weight: lighter;
+      max-width: 60%;
+  
+  
+  }
+  .pro_info{
+      color: rgb(11, 54, 64);
+      position: absolute;
+      line-height: 1.3em;
+      z-index: 100;
+      max-width: 22em;
+      left: 2.5em;
+      font-weight: 200;
+      font-size: .9em;
+      top: 32.5em;
+  
+  }
+  .white{
+      background-color: snow;
+      position: absolute;
+      width: 72%;
+      height: 13em;
+      left: 1em;
+      z-index: 60;
+      top: 27em;
+  }
+  
+  
+  
+  img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .base_grid {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .thmain_image {
+      padding: 20px;
+      position: absolute;
+      height: 29%;
+      left: 2.3em;
+      top: 9em;
+      z-index: 100;
+    }
+    .thumbnails_grid {
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px 100px;
+      row-gap: 20px;
+      column-gap: 20px;
+      padding: 20px; */
+    }
+    
+    .thumbnails_grid img {
+      cursor: pointer;
+    }
+    #metal{
+        height: 14%;
+        position: absolute;
+        left: 3em;
+        top: 37.5em;
+        z-index: 61;
+  
+    }
+      #phot{
+          height: 14%;
+          position: absolute;
+          left: 13em;
+        top: 44em;
+        z-index: 62;
+  
+  }
+      #book{
+          height: 14%;
+          position: absolute;
+          top: 1em;
+          left: 2em;
+        top: 52em;
+        z-index: 70;
+  
+      }
+      #stone{
+          height: 14%;
+          position: absolute;
+          left: 10em;
+        top: 60.8em;
+        z-index: 20;
+  }
+  
+   
+
+}
+ 
+/* ----------- TABLETS  thames and hudson ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        padding: 0em;
+      }
+      .imenu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 13em;
+          width: 100%;
+          
+      }
+      .icontact{
+         font-weight: 350;
+         line-height: .5em;
+         position: absolute;
+         top: 1.2em;
+         left: 2em;
+         text-align: left;
+         color: rgb(11, 54, 64);
+         font-size: .8em;
+         z-index: 100;
+      }
+      .ihome{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 65%;
+          font-size: 1.2em;
+          
+      }
+      .iprojects{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 85%;
+          font-size: 1.2em;
+         
+      } 
+      .ibar_one{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 77em;
+          position: absolute;
+          top: 0em;
+          left: 1em;
+      
+      }
+      .ibar_two{
+          background-color: rgb(241, 253, 94);
+          width: 3em;
+          height: 65em;
+          position: absolute;
+          top: 0em;
+          left: 6em;
+      }
+      .ibar_three{
+          background-color: rgb(109, 224, 153);
+          width: 2em;
+          height: 50em;
+          position: absolute;
+          top: 0em;
+            left: 4em;
+      }
+      .thbar_four{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 30em;
+          position: absolute;
+          left: 83%; 
+          top: 47em;
+      }
+      .thbar_five{
+        background-color: rgb(241, 253, 94);
+        width: 3em;
+        height: 50em;
+        position: absolute;
+        left: 93%;
+        z-index: 50;
+        top: 27em;
+      }
+      .thbar_six{
+          background-color: rgb(109, 224, 153);
+          width: 3em;
+          height: 72em;
+          position: absolute;
+          top: 5em;
+          left: 89%;    
+    }
+    .pro_name{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 2.5em;
+        position: absolute;
+        top: 2em;
+        z-index: 100;
+        left: 1.55em;
+        font-weight: lighter;
+    
+    
+    }
+    .pro_info{
+        color: rgb(11, 54, 64);
+        position: absolute;
+        line-height: 1.3em;
+        z-index: 100;
+        max-width: 12.5em;
+        left: 75.5%;
+        font-weight: 200;
+        font-size: .9em;
+        top: 45em;
+    
+    }
+    .white{
+        background-color: snow;
+        position: absolute;
+        width: 26%;
+        height: 18em;
+        left: 36em;
+        z-index: 60;
+        top: 40em;
+    }
+    
+    
+    
+    img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+      
+      .base_grid {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      
+      .thmain_image {
+        padding: 20px;
+        position: absolute;
+        height: 44%;
+        left: 1.2em;
+        top: 10em;
+        z-index: 100;
+      }
+      .thumbnails_grid {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 20px; */
+      }
+      
+      .thumbnails_grid img {
+        cursor: pointer;
+      }
+      #metal{
+          height: 17%;
+          position: absolute;
+          left: .5em;
+          top: 52em;
+          z-index: 1;
+    
+      }
+        #phot{
+            height: 17%;
+            position: absolute;
+            left: 12em;
+          top: 44em;
+          z-index: 0;
+    
+    }
+        #book{
+            height: 17%;
+            position: absolute;
+            top: 1em;
+            left: 24em;
+          top: 53em;
+          z-index: 70;
+    
+        }
+        #stone{
+            height: 17%;
+            position: absolute;
+            left: 15em;
+          top: 63em;
+          z-index: 20;
+    }
+    
+    
+}
+
+
+
+  /* ----------- COMPUTER legibility ----------- */
+
+
+  body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+}
+.lmenu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 14em;
+}
+.icontact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: .4em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.ihome{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 80%;
+    font-size: 1.3em;
+}
+.iprojects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 90%;
+    font-size: 1.3em;
+}
+.lbar_one{
+    background-color: rgb(57, 235, 222);
+    width: 70%;
+    height: 3em;
+    position: absolute;
+    top: 10.5em;
+
+}
+.lbar_two{
+    background-color: rgb(109, 224, 153);
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    top: 13em;
+}
+.lbar_three{
+    background-color: rgb(241, 253, 94);
+    width: 80%;
+    height: 3em;
+    position: absolute;
+    top: 15em;
+    z-index: 50;
+}
+.lbar_four{
+    background-color: rgb(57, 235, 222);
+    width: 80%;
+    height: 4em;
+    position: absolute;
+    left: 24em;
+    top: 58em;
+
+}
+.lbar_five{
+    background-color: rgb(241, 253, 94);
+    width: 70%;
+    height: 2em;
+    position: absolute;
+    left: 35.8em;
+    bottom: -.9em;
+}
+.lbar_six{
+    background-color: rgb(109, 224, 153);
+    width: 65em;
+    height: 2.6em;
+    position: absolute;
+    top: 62em;
+    left: 54.2em;
+}
+.pro_name{
+    font-family: 'Baskerville', serif;
+    color: rgb(11, 54, 64);
+    font-size: 3em;
+    position: absolute;
+    top: 2em;
+    z-index: 100;
+    left: 2em;
+    font-weight: lighter;
+
+
+}
+.lpro_info{
+    color: rgb(11, 54, 64);
+    position: absolute;
+    line-height: 1.5em;
+    z-index: 100;
+    max-width: 53em;
+    left: 43em;
+    font-weight: 200;
+    font-size: 1.2em;
+    top: 15em;
+
+}
+.lwhite{
+    background-color: snow;
+    position: absolute;
+    width: 55%;
+    height: 17em;
+    left: 50em;
+    top: 16em;
+}
+
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .base_grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .lmain_image {
+    padding: 20px;
+    position: absolute;
+    height: 50%;
+    left: 1em;
+    top: 16em;
+    z-index: 100;
+  }
+  .thumbnails_grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px; */
+  }
+  
+  .thumbnails_grid img {
+    cursor: pointer;
+  }
+    #two{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 50em;
+      top: 41em;
+      z-index: 1;
+
+}
+    #four{
+        height: 20%;
+        position: absolute;
+        left: 81em;
+      top: 29em;
+      z-index: 50;
+
+    }
+    #six{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 83em;
+      top: 50em;
+      z-index: 20;
+}
+#eight{
+    height: 20%;
+    position: absolute;
+    left: 46em;
+    top: 27em;
+
+}
+  #ten{
+      height: 20%;
+      position: absolute;
+      top: 1em;
+      left: 37em;
+    top: 55em;
+    z-index: 100;
+    margin-bottom: 3em;
+
+}
+
+
+  
+
+
+/* ----------- SMART PHONES legibility ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+
+    .lmenu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 86.5em;
+        width: 3em;
+        margin-bottom: ;
+        
+    }
+    .icontact{
+       font-weight: 350;
+       line-height: .5em;
+       position: absolute;
+       top: 68em;
+       left: 26em;
+       text-align: right;
+       color: rgb(11, 54, 64);
+       font-size: .8em;
+       z-index: 100;
+    }
+    .ihome{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .4em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    .iprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: -.1em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    
+    .lbar_one{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 40em;
+        position: absolute;
+        top: 45.5em;
+        left: .7em;
+        margin-bottom: 0em;
+    
+    }
+    .lbar_two{
+        background-color: rgb(241, 253, 94);
+        width: 2em;
+        height: 55em;
+        position: absolute;
+        top: 30.5em;
+        left: 4em;
+        z-index: 2;
+        margin-bottom: 0em;
+    }
+    .lbar_three{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 50em;
+        position: absolute;
+        top: 35.5em;
+          left: 2.5em;
+          z-index: 1;
+          margin-bottom: 0em;
+    }
+    .lbar_four{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 47em;
+        position: absolute;
+        left: 79%; 
+        top: 0em;
+    }
+    .lbar_five{
+      background-color: rgb(241, 253, 94);
+      width: 2em;
+      height: 35em;
+      position: absolute;
+      left: 91%;
+      z-index: 50;
+      top: 0em;
+    }
+    .lbar_six{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 20em;
+        position: absolute;
+        top: 0em;
+        left: 85%;    
+  }
+  .pro_name{
+      font-family: 'Baskerville', serif;
+      color: rgb(11, 54, 64);
+      font-size: 2.5em;
+      position: absolute;
+      top: .3em;
+      z-index: 100;
+      left: 2em;
+      font-weight: lighter;
+      max-width: 60%;
+  
+  
+  }
+  .lpro_info{
+      color: rgb(11, 54, 64);
+      position: absolute;
+      line-height: 1.3em;
+      z-index: 100;
+      max-width: 22em;
+      left: 2.5em;
+      font-weight: 200;
+      font-size: .9em;
+      top: 32.5em;
+  
+  }
+  .lwhite{
+      background-color: snow;
+      position: absolute;
+      width: 72%;
+      height: 13em;
+      left: 1em;
+      z-index: 60;
+      top: 27em;
+  }
+  
+  
+  
+  img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .base_grid {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .lmain_image {
+      padding: 20px;
+      position: absolute;
+      height: 29%;
+      left: 2.3em;
+      top: 9em;
+      z-index: 100;
+    }
+    .thumbnails_grid {
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px 100px;
+      row-gap: 20px;
+      column-gap: 20px;
+      padding: 20px; */
+    }
+    
+    .thumbnails_grid img {
+      cursor: pointer;
+    }
+    #two{
+        height: 14%;
+        position: absolute;
+        left: 2em;
+        top: 37.5em;
+        z-index: 61;
+  
+    }
+      #four{
+          height: 14%;
+          position: absolute;
+          left: 6em;
+        top: 46em;
+        z-index: 62;
+  
+  }
+      #six{
+          height: 14%;
+          position: absolute;
+          top: 1em;
+          left: 1.5em;
+        top: 55em;
+        z-index: 70;
+  
+      }
+      #eight{
+          height: 14%;
+          position: absolute;
+          left: 5em;
+        top: 63.8em;
+        z-index: 70;
+  }
+  #ten{
+    height: 14%;
+    position: absolute;
+    left: 5.9em;
+  top: 73em;
+  z-index: 20;
+}
+   
+
+}
+ 
+/* ----------- TABLETS  legibility ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        padding: 0em;
+      }
+      .lmenu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 13em;
+          width: 100%;
+          
+      }
+      .icontact{
+         font-weight: 350;
+         line-height: .5em;
+         position: absolute;
+         top: 1.2em;
+         left: 2em;
+         text-align: left;
+         color: rgb(11, 54, 64);
+         font-size: .8em;
+         z-index: 100;
+      }
+      .ihome{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 65%;
+          font-size: 1.2em;
+          
+      }
+      .iprojects{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 85%;
+          font-size: 1.2em;
+         
+      } 
+      .lbar_one{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 77em;
+          position: absolute;
+          top: 0em;
+          left: 1em;
+      
+      }
+      .lbar_two{
+          background-color: rgb(241, 253, 94);
+          width: 3em;
+          height: 65em;
+          position: absolute;
+          top: 0em;
+          left: 6em;
+      }
+      .lbar_three{
+          background-color: rgb(109, 224, 153);
+          width: 2em;
+          height: 50em;
+          position: absolute;
+          top: 0em;
+            left: 4em;
+      }
+      .lbar_four{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 30em;
+          position: absolute;
+          left: 83.5%; 
+          top: 62em;
+      }
+      .lbar_five{
+        background-color: rgb(241, 253, 94);
+        width: 3em;
+        height: 50em;
+        position: absolute;
+        left: 93%;
+        z-index: 10;
+        bottom: -26.45em;
+      }
+      .lbar_six{
+          background-color: rgb(109, 224, 153);
+          width: 3em;
+          height: 72em;
+          position: absolute;
+          top: 20em;
+          left: 89%;    
+    }
+    .pro_name{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 2.5em;
+        position: absolute;
+        top: 2em;
+        z-index: 100;
+        left: 1.55em;
+        font-weight: lighter;
+    
+    
+    }
+    .lpro_info{
+        color: rgb(11, 54, 64);
+        position: absolute;
+        line-height: 1.3em;
+        z-index: 100;
+        max-width: 11em;
+        left: 76.5%;
+        font-weight: 200;
+        font-size: .9em;
+        top: 51em;
+    
+    }
+    .lwhite{
+        background-color: snow;
+        position: absolute;
+        width: 26%;
+        height: 18em;
+        left: 36em;
+        z-index: 20;
+        top: 44em;
+    }
+    
+    
+    
+    img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+      
+      .base_grid {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      
+      .lmain_image {
+        padding: 20px;
+        position: absolute;
+        height: 50%;
+        left: 1.2em;
+        top: 11.5em;
+        z-index: 80;
+      }
+      .thumbnails_grid {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 20px; */
+      }
+      
+      .thumbnails_grid img {
+        cursor: pointer;
+      }
+      #two{
+          height: 15%;
+          position: absolute;
+          left: .5em;
+          top: 54.5em;
+          z-index: 1;
+    
+      }
+        #four{
+            height: 15%;
+            position: absolute;
+            left: 12em;
+          top: 45em;
+          z-index: 81;
+    
+    }
+        #six{
+            height: 15%;
+            position: absolute;
+            
+            left: 24em;
+          top: 61em;
+          z-index: 20;
+    
+        }
+        #eight{
+            height: 15%;
+            position: absolute;
+            left: 2em;
+          top: 69.5em;
+          z-index: 20;
+    }
+    #ten{
+        height: 15%;
+        position: absolute;
+        left: 21em;
+      top: 79em;
+      z-index: 90;
+}
+    
+}
+
+
+
+
+  /* ----------- COMPUTER tea box ----------- */
+
+
+  body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+}
+.imenu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 14em;
+}
+.icontact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: .4em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.ihome{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 80%;
+    font-size: 1.3em;
+}
+.iprojects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 90%;
+    font-size: 1.3em;
+}
+.tbar_one{
+    background-color: rgb(57, 235, 222);
+    width: 70%;
+    height: 3em;
+    position: absolute;
+    top: 10.5em;
+
+}
+.tbar_two{
+    background-color: rgb(109, 224, 153);
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    top: 13em;
+    z-index: 1;
+}
+.tbar_three{
+    background-color: rgb(241, 253, 94);
+    width: 80%;
+    height: 3em;
+    position: absolute;
+    top: 15em;
+    z-index: 50;
+}
+.tbar_four{
+    background-color: rgb(57, 235, 222);
+    width: 80%;
+    height: 4em;
+    position: absolute;
+    left: 24em;
+    top: 58em;
+
+}
+.tbar_five{
+    background-color: rgb(241, 253, 94);
+    width: 70%;
+    height: 2em;
+    position: absolute;
+    left: 36em;
+    bottom: 0em;
+}
+.tbar_six{
+    background-color: rgb(109, 224, 153);
+    width: 65em;
+    height: 2.6em;
+    position: absolute;
+    top: 62em;
+    left: 55em;
+}
+.pro_name{
+    font-family: 'Baskerville', serif;
+    color: rgb(11, 54, 64);
+    font-size: 3em;
+    position: absolute;
+    top: 2em;
+    z-index: 100;
+    left: 2em;
+    font-weight: lighter;
+
+
+}
+.tpro_info{
+    color: rgb(11, 54, 64);
+    position: absolute;
+    line-height: 1.5em;
+    z-index: 100;
+    max-width: 52em;
+    left: 44em;
+    font-weight: 200;
+    font-size: 1.2em;
+    top: 15em;
+
+}
+.twhite{
+    background-color: snow;
+    position: absolute;
+    width: 55%;
+    height: 20em;
+    left: 50em;
+    z-index: 0;
+}
+
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .base_grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .tmain_image {
+    padding: 20px;
+    position: absolute;
+    height: 50%;
+    left: 1em;
+    top: 16em;
+    z-index: 100;
+  }
+  .thumbnails_grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px; */
+  }
+  
+  .thumbnails_grid img {
+    cursor: pointer;
+  }
+  #one{
+      height: 20%;
+      position: absolute;
+      left: 50em;
+      top: 30em;
+
+  }
+    #ttwo{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 64em;
+      top: 40em;
+      z-index: 100;
+
+}
+    #three{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 81em;
+      top: 32em;
+      z-index: 50;
+
+    }
+    #tfour{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 98em;
+      top: 45.2em;
+      z-index: 20;
+}
+
+  
+
+
+/* ----------- SMART PHONES tea box ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+
+    .imenu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 75em;
+        width: 3em;
+        margin-bottom: ;
+        
+    }
+    .icontact{
+       font-weight: 350;
+       line-height: .5em;
+       position: absolute;
+       top: 68em;
+       left: 26em;
+       text-align: right;
+       color: rgb(11, 54, 64);
+       font-size: .8em;
+       z-index: 100;
+    }
+    .ihome{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .4em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    .iprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: -.1em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    
+    .tbar_one{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 40em;
+        position: absolute;
+        top: 34em;
+        left: .7em;
+        margin-bottom: 0em;
+    
+    }
+    .tbar_two{
+        background-color: rgb(241, 253, 94);
+        width: 2em;
+        height: 55em;
+        position: absolute;
+        top: 19em;
+        left: 4em;
+        z-index: 2;
+        margin-bottom: 0em;
+    }
+    .tbar_three{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 50em;
+        position: absolute;
+        top: 24em;
+          left: 2.5em;
+          z-index: 1;
+          margin-bottom: 0em;
+    }
+    .tbar_four{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 47em;
+        position: absolute;
+        left: 79%; 
+        top: 0em;
+    }
+    .tbar_five{
+      background-color: rgb(241, 253, 94);
+      width: 2em;
+      height: 35em;
+      position: absolute;
+      left: 91%;
+      z-index: 50;
+      top: 0em;
+    }
+    .tbar_six{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 20em;
+        position: absolute;
+        top: 0em;
+        left: 85%;    
+  }
+  .pro_name{
+      font-family: 'Baskerville', serif;
+      color: rgb(11, 54, 64);
+      font-size: 2.5em;
+      position: absolute;
+      top: .3em;
+      z-index: 100;
+      left: 2em;
+      font-weight: lighter;
+      max-width: 60%;
+  
+  
+  }
+  .tpro_info{
+      color: rgb(11, 54, 64);
+      position: absolute;
+      line-height: 1.3em;
+      z-index: 100;
+      max-width: 22em;
+      left: 2.5em;
+      font-weight: 200;
+      font-size: .9em;
+      top: 30em;
+  
+  }
+  .twhite{
+      background-color: snow;
+      position: absolute;
+      width: 72%;
+      height: 13em;
+      left: 1em;
+      z-index: 60;
+      top: 27em;
+  }
+  
+  
+  
+  img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .base_grid {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .tmain_image {
+      padding: 20px;
+      position: absolute;
+      height: 29%;
+      left: 2.3em;
+      top: 9em;
+      z-index: 100;
+    }
+    .thumbnails_grid {
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px 100px;
+      row-gap: 20px;
+      column-gap: 20px;
+      padding: 20px; */
+    }
+    
+    .thumbnails_grid img {
+      cursor: pointer;
+    }
+    #one{
+        height: 14%;
+        position: absolute;
+        left: 3em;
+        top: 39em;
+        z-index: 61;
+  
+    }
+      #ttwo{
+          height: 14%;
+          position: absolute;
+          left: 13em;
+        top: 44em;
+        z-index: 62;
+  
+  }
+      #three{
+          height: 14%;
+          position: absolute;
+          top: 1em;
+          left: 2em;
+        top: 52em;
+        z-index: 70;
+  
+      }
+      #tfour{
+          height: 14%;
+          position: absolute;
+          left: 10em;
+        top: 60.8em;
+        z-index: 20;
+  }
+  
+   
+
+}
+ 
+/* ----------- TABLETS  tea box ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        padding: 0em;
+      }
+      .imenu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 13em;
+          width: 100%;
+          
+      }
+      .icontact{
+         font-weight: 350;
+         line-height: .5em;
+         position: absolute;
+         top: 1.2em;
+         left: 2em;
+         text-align: left;
+         color: rgb(11, 54, 64);
+         font-size: .8em;
+         z-index: 100;
+      }
+      .ihome{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 65%;
+          font-size: 1.2em;
+          
+      }
+      .iprojects{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 85%;
+          font-size: 1.2em;
+         
+      } 
+      .tbar_one{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 77em;
+          position: absolute;
+          top: 0em;
+          left: 1em;
+      
+      }
+      .tbar_two{
+          background-color: rgb(241, 253, 94);
+          width: 3em;
+          height: 65em;
+          position: absolute;
+          top: 0em;
+          left: 6em;
+      }
+      .tbar_three{
+          background-color: rgb(109, 224, 153);
+          width: 2em;
+          height: 50em;
+          position: absolute;
+          top: 0em;
+            left: 4em;
+      }
+      .tbar_four{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 30em;
+          position: absolute;
+          left: 83%; 
+          top: 47em;
+      }
+      .tbar_five{
+        background-color: rgb(241, 253, 94);
+        width: 3em;
+        height: 50em;
+        position: absolute;
+        left: 93%;
+        z-index: 50;
+        top: 27em;
+      }
+      .tbar_six{
+          background-color: rgb(109, 224, 153);
+          width: 3em;
+          height: 72em;
+          position: absolute;
+          top: 5em;
+          left: 89%;    
+    }
+    .pro_name{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 2.5em;
+        position: absolute;
+        top: 2em;
+        z-index: 100;
+        left: 1.55em;
+        font-weight: lighter;
+    
+    
+    }
+    .tpro_info{
+        color: rgb(11, 54, 64);
+        position: absolute;
+        line-height: 1.3em;
+        z-index: 100;
+        max-width: 13em;
+        left: 74.5%;
+        font-weight: 200;
+        font-size: .9em;
+        top: 40.5em;
+    
+    }
+    .twhite{
+        background-color: snow;
+        position: absolute;
+        width: 26%;
+        height: 18em;
+        left: 36em;
+        z-index: 91;
+        top: 37em;
+    }
+    
+    
+    
+    img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+      
+      .base_grid {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      
+      .tmain_image {
+        padding: 20px;
+        position: absolute;
+        height: 40%;
+        left: 1.2em;
+        top: 11.5em;
+        z-index: 90;
+      }
+      .thumbnails_grid {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 20px; */
+      }
+      
+      .thumbnails_grid img {
+        cursor: pointer;
+      }
+      #one{
+          height: 17%;
+          position: absolute;
+          left: .5em;
+          top: 52em;
+          z-index: 1;
+    
+      }
+        #ttwo{
+            height: 17%;
+            position: absolute;
+            left: 12em;
+          top: 44em;
+          z-index: 0;
+    
+    }
+        #three{
+            height: 17%;
+            position: absolute;
+            top: 1em;
+            left: 24em;
+          top: 53em;
+          z-index: 70;
+    
+        }
+        #tfour{
+            height: 17%;
+            position: absolute;
+            left: 15em;
+          top: 63em;
+          z-index: 20;
+    }
+    
+    
+}
+
+
+
+
+  /* ----------- COMPUTER cards ----------- */
+
+
+  body{
+    background-color: rgb(255, 247, 234);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trade Gothic Lt Std', sans-serif;
+    color: rgb(11, 54, 64);
+}
+.cmenu{
+    background-color:rgb(212, 255, 69);
+    margin-top: -1em;
+    height: 14em;
+}
+.ccontact{
+   font-weight: 300;
+   line-height: .5em;
+   position: absolute;
+   top: .4em;
+   left: 3em;
+   text-align: right;
+   color: rgb(11, 54, 64);
+}
+.chome{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 80%;
+    font-size: 1.3em;
+}
+.cprojects{
+    font-weight: bold;
+    position: absolute;
+    top: 1.8em;
+    left: 90%;
+    font-size: 1.3em;
+}
+.cbar_one{
+    background-color: rgb(57, 235, 222);
+    width: 70%;
+    height: 3em;
+    position: absolute;
+    top: 10.5em;
+
+}
+.cbar_two{
+    background-color: rgb(109, 224, 153);
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    top: 13em;
+    z-index: 1;
+}
+.cbar_three{
+    background-color: rgb(241, 253, 94);
+    width: 80%;
+    height: 3em;
+    position: absolute;
+    top: 15em;
+    z-index: 50;
+}
+.cbar_four{
+    background-color: rgb(57, 235, 222);
+    width: 80%;
+    height: 4em;
+    position: absolute;
+    left: 24em;
+    top: 58em;
+
+}
+.cbar_five{
+    background-color: rgb(241, 253, 94);
+    width: 70%;
+    height: 2em;
+    position: absolute;
+    left: 36em;
+    bottom: 0em;
+}
+.cbar_six{
+    background-color: rgb(109, 224, 153);
+    width: 65em;
+    height: 2.6em;
+    position: absolute;
+    top: 62em;
+    left: 55em;
+}
+.pro_name{
+    font-family: 'Baskerville', serif;
+    color: rgb(11, 54, 64);
+    font-size: 3em;
+    position: absolute;
+    top: 2em;
+    z-index: 100;
+    left: 2em;
+    font-weight: lighter;
+
+
+}
+.cpro_info{
+    color: rgb(11, 54, 64);
+    position: absolute;
+    line-height: 1.5em;
+    z-index: 100;
+    max-width: 53em;
+    left: 43.5em;
+    font-weight: 200;
+    font-size: 1.2em;
+    top: 15em;
+
+}
+.cwhite{
+    background-color: snow;
+    position: absolute;
+    width: 55%;
+    height: 20em;
+    left: 50em;
+    z-index: 0;
+}
+
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .base_grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .cmain_image {
+    padding: 20px;
+    position: absolute;
+    height: 50%;
+    left: 1em;
+    top: 16em;
+    z-index: 100;
+  }
+  .thumbnails_grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px; */
+  }
+  
+  .thumbnails_grid img {
+    cursor: pointer;
+  }
+  #house{
+      height: 20%;
+      position: absolute;
+      left: 50em;
+      top: 30em;
+
+  }
+    #ghost{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 64em;
+      top: 40em;
+      z-index: 100;
+
+}
+    #eyes{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 81em;
+      top: 32em;
+      z-index: 50;
+
+    }
+    #cat{
+        height: 20%;
+        position: absolute;
+        top: 1em;
+        left: 98em;
+      top: 45.2em;
+      z-index: 20;
+}
+
+  
+
+
+/* ----------- SMART PHONES cards ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+      padding: 0em;
+    }
+
+    .cmenu{
+        background-color:rgb(212, 255, 69);
+        margin-top: -1em;
+        height: 75em;
+        width: 3em;
+        margin-bottom: ;
+        
+    }
+    .ccontact{
+       font-weight: 350;
+       line-height: .5em;
+       position: absolute;
+       top: 68em;
+       left: 26em;
+       text-align: right;
+       color: rgb(11, 54, 64);
+       font-size: .8em;
+       z-index: 100;
+    }
+    .chome{
+        font-weight: bold;
+        position: absolute;
+        top: 15em;
+        left: .4em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    .cprojects{
+        font-weight: bold;
+        position: absolute;
+        top: 9em;
+        left: -.1em;
+        font-size: 1em;
+        transform: rotate(-90deg);
+        z-index: 80;
+    }
+    
+    .cbar_one{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 40em;
+        position: absolute;
+        top: 34em;
+        left: .7em;
+        margin-bottom: 0em;
+    
+    }
+    .cbar_two{
+        background-color: rgb(241, 253, 94);
+        width: 2em;
+        height: 55em;
+        position: absolute;
+        top: 19em;
+        left: 4em;
+        z-index: 2;
+        margin-bottom: 0em;
+    }
+    .cbar_three{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 50em;
+        position: absolute;
+        top: 24em;
+          left: 2.5em;
+          z-index: 1;
+          margin-bottom: 0em;
+    }
+    .cbar_four{
+        background-color: rgb(57, 235, 222);
+        width: 2em;
+        height: 47em;
+        position: absolute;
+        left: 79%; 
+        top: 0em;
+    }
+    .cbar_five{
+      background-color: rgb(241, 253, 94);
+      width: 2em;
+      height: 35em;
+      position: absolute;
+      left: 91%;
+      z-index: 50;
+      top: 0em;
+    }
+    .cbar_six{
+        background-color: rgb(109, 224, 153);
+        width: 2em;
+        height: 20em;
+        position: absolute;
+        top: 0em;
+        left: 85%;    
+  }
+  .pro_name{
+      font-family: 'Baskerville', serif;
+      color: rgb(11, 54, 64);
+      font-size: 2.5em;
+      position: absolute;
+      top: .3em;
+      z-index: 100;
+      left: 2em;
+      font-weight: lighter;
+      max-width: 60%;
+  
+  
+  }
+  .cpro_info{
+      color: rgb(11, 54, 64);
+      position: absolute;
+      line-height: 1.3em;
+      z-index: 100;
+      max-width: 22em;
+      left: 2.5em;
+      font-weight: 200;
+      font-size: .9em;
+      top: 30em;
+  
+  }
+  .cwhite{
+      background-color: snow;
+      position: absolute;
+      width: 72%;
+      height: 13em;
+      left: 1em;
+      z-index: 60;
+      top: 27em;
+  }
+  
+  
+  
+  img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .base_grid {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .cmain_image {
+      padding: 20px;
+      position: absolute;
+      height: 29%;
+      left: 2.3em;
+      top: 9em;
+      z-index: 100;
+    }
+    .thumbnails_grid {
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px 100px;
+      row-gap: 20px;
+      column-gap: 20px;
+      padding: 20px; */
+    }
+    
+    .thumbnails_grid img {
+      cursor: pointer;
+    }
+    #house{
+        height: 14%;
+        position: absolute;
+        left: 3em;
+        top: 37.5em;
+        z-index: 61;
+  
+    }
+      #ghost{
+          height: 14%;
+          position: absolute;
+          left: 13em;
+        top: 44em;
+        z-index: 62;
+  
+  }
+      #eyes{
+          height: 14%;
+          position: absolute;
+          top: 1em;
+          left: 2em;
+        top: 52em;
+        z-index: 70;
+  
+      }
+      #cat{
+          height: 14%;
+          position: absolute;
+          left: 10em;
+        top: 60.8em;
+        z-index: 20;
+  }
+  
+   
+
+}
+ 
+/* ----------- TABLETS  cards ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        padding: 0em;
+      }
+      .cmenu{
+          background-color:rgb(212, 255, 69);
+          margin-top: -1em;
+          height: 13em;
+          width: 100%;
+          
+      }
+      .ccontact{
+         font-weight: 350;
+         line-height: .5em;
+         position: absolute;
+         top: 1.2em;
+         left: 2em;
+         text-align: left;
+         color: rgb(11, 54, 64);
+         font-size: .8em;
+         z-index: 100;
+      }
+      .chome{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 65%;
+          font-size: 1.2em;
+          
+      }
+      .cprojects{
+          font-weight: bold;
+          position: absolute;
+          top: 1.2em;
+          left: 85%;
+          font-size: 1.2em;
+         
+      } 
+      .cbar_one{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 77em;
+          position: absolute;
+          top: 0em;
+          left: 1em;
+      
+      }
+      .cbar_two{
+          background-color: rgb(241, 253, 94);
+          width: 3em;
+          height: 65em;
+          position: absolute;
+          top: 0em;
+          left: 6em;
+      }
+      .cbar_three{
+          background-color: rgb(109, 224, 153);
+          width: 2em;
+          height: 50em;
+          position: absolute;
+          top: 0em;
+            left: 4em;
+      }
+      .cbar_four{
+          background-color: rgb(57, 235, 222);
+          width: 3em;
+          height: 30em;
+          position: absolute;
+          left: 83%; 
+          top: 47em;
+      }
+      .cbar_five{
+        background-color: rgb(241, 253, 94);
+        width: 3em;
+        height: 50em;
+        position: absolute;
+        left: 93%;
+        z-index: 50;
+        top: 27em;
+      }
+      .cbar_six{
+          background-color: rgb(109, 224, 153);
+          width: 3em;
+          height: 72em;
+          position: absolute;
+          top: 5em;
+          left: 89%;    
+    }
+    .pro_name{
+        font-family: 'Baskerville', serif;
+        color: rgb(11, 54, 64);
+        font-size: 2.5em;
+        position: absolute;
+        top: 2em;
+        z-index: 100;
+        left: 1.55em;
+        font-weight: lighter;
+    
+    
+    }
+    .cpro_info{
+        color: rgb(11, 54, 64);
+        position: absolute;
+        line-height: 1.3em;
+        z-index: 100;
+        max-width: 11em;
+        left: 76.5%;
+        font-weight: 200;
+        font-size: .9em;
+        top: 46.5em;
+    
+    }
+    .cwhite{
+        background-color: snow;
+        position: absolute;
+        width: 26%;
+        height: 20em;
+        left: 36em;
+        z-index: 80;
+        top: 40em;
+    }
+    
+    
+    
+    img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+      
+      .base_grid {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      
+      .cmain_image {
+        padding: 20px;
+        position: absolute;
+        height: 45%;
+        left: 1.2em;
+        top: 11.5em;
+        z-index: 100;
+      }
+      .thumbnails_grid {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 20px; */
+      }
+      
+      .thumbnails_grid img {
+        cursor: pointer;
+      }
+      #house{
+          height: 17%;
+          position: absolute;
+          left: .5em;
+          top: 52em;
+          z-index: 20;
+    
+      }
+        #ghost{
+            height: 17%;
+            position: absolute;
+            left: 12em;
+          top: 44em;
+          z-index: 0;
+    
+    }
+        #eyes{
+            height: 17%;
+            position: absolute;
+            top: 1em;
+            left: 24em;
+          top: 53em;
+          z-index: 70;
+    
+        }
+        #cat{
+            height: 17%;
+            position: absolute;
+            left: 15em;
+          top: 63em;
+          z-index: 20;
+    }
+    
+    
 }
